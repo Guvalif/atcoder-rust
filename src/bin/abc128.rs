@@ -8,17 +8,17 @@ mod tests {
     use atcoder_rust::abc128::a;
 
     #[test]
-    fn case1() {
+    fn a_case1() {
       assert_eq!(a::solve(1, 3), 3);
     }
 
     #[test]
-    fn case2() {
+    fn a_case2() {
       assert_eq!(a::solve(0, 1), 0);
     }
 
     #[test]
-    fn case3() {
+    fn a_case3() {
       assert_eq!(a::solve(32, 21), 58);
     }
   }
@@ -27,7 +27,7 @@ mod tests {
     use atcoder_rust::abc128::b;
 
     #[test]
-    fn case1() {
+    fn b_case1() {
       let scores: b::Scores = vec![
         ("khabarovsk", 20),
         ("moscow", 10),
@@ -51,7 +51,7 @@ mod tests {
     }
 
     #[test]
-    fn case2() {
+    fn b_case2() {
       let scores: b::Scores = vec![
         ("yakutsk", 10),
         ("yakutsk", 20),
@@ -80,6 +80,25 @@ mod tests {
           1,
         ],
       )
+    }
+  }
+
+  mod c {
+    use atcoder_rust::abc128::c;
+
+    #[test]
+    fn c_case1() {
+      unimplemented!();
+    }
+
+    #[test]
+    fn c_case2() {
+      unimplemented!();
+    }
+
+    #[test]
+    fn c_case3() {
+      unimplemented!();
     }
   }
 }
